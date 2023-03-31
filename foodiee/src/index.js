@@ -1,4 +1,5 @@
 import Reactdom from 'react-dom'
 import './index.css'
+import App from './App'
 
-Reactdom.render("Hello everyone i'm gautham raasendiran",document.getElementById('food'))
+Reactdom.render(<App/>,document.getElementById('food'))
