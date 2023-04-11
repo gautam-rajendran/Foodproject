@@ -1,11 +1,11 @@
 import React from 'react'
-import Props from './react-props/Props'
+import State from './react-state/State'
 
 class App extends React.Component {
    
   render(){
     return<div>
-      <Props/>
+     <State/>
     </div>
   }
 }
