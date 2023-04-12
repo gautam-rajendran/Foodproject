@@ -1,11 +1,11 @@
 import React from 'react'
-import State from './react-state/State'
+import Counter from './increment-decrement/Counter'
 
 class App extends React.Component {
    
   render(){
     return<div>
-     <State/>
+     <Counter/>
     </div>
   }
 }
