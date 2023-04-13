@@ -1,11 +1,11 @@
 import React from 'react'
-import Counter from './increment-decrement/Counter'
+import Bind from './react-binding/Bind'
 
 class App extends React.Component {
    
   render(){
     return<div>
-     <Counter/>
+     <Bind/>
     </div>
   }
 }
