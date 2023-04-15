@@ -1,11 +1,10 @@
 import React from 'react'
-import Bind from './react-binding/Bind'
-
+import Cycle from './L-Cycle/Cycle'
 class App extends React.Component {
    
   render(){
     return<div>
-     <Bind/>
+     <Cycle/>
     </div>
   }
 }
