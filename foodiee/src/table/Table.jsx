@@ -6,9 +6,9 @@ class Table extends Component {
     return (
       <div>
         <pre>{JSON.stringify(employe)}</pre>
-        <div className='table'>
+        <div>
             <table>
-                <thead className='table_head' >
+                <thead >
                     <tr >
                         <th>ID</th>
                         <th>FIRST NAME</th>
