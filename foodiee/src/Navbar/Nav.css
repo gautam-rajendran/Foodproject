@@ -1,12 +1,14 @@
 .navbar{
     background-color: gray;
+    position: sticky;
+    width: 100%;
     
 }
 
 
 .list{
     list-style-type: none;
-    text-align: right;
+    text-align: center;
     
 }
 

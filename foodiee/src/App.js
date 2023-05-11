@@ -4,6 +4,7 @@ import Navbar from './Navbar/Navbar'
 import Home from './Dummy/Home'
 import Setting from './Dummy/Setting'
 import Contact from './Dummy/Contact'
+import User from './Dummy/User'
 class App extends React.Component {
    
   render(){
@@ -14,6 +15,7 @@ class App extends React.Component {
                 <Route path='/home' element={<Home/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/settings' element={<Setting/>}/>
+                <Route path='/Users' element={<User/>}/>
               </Routes>
           </Router>
          </>

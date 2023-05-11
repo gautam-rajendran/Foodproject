@@ -15,6 +15,7 @@ export class Navbar extends Component {
                 <li ><Link className='nav-link' to="./Home">Home</Link></li>
                 <li ><Link className='nav-link' to="./Contact">Contact</Link></li>
                 <li ><Link className='nav-link' to="./Settings">Settings</Link></li>
+                <li ><Link className='nav-link' to="./Users">Users</Link></li>
             </ul>
         </div>        
         </nav>
